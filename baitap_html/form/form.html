@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/form.css">
+    <title>form</title>
+</head>
+<body>
+    
+  <form action="">
+    <label for="Username" >Username</label>
+    <input type="text" placeholder="Username" name="Username">
+    <br>
+    <label for="number">Number</label>
+    <input type="number" name="number" id="number">
+    <br>
+    <input type="radio" name="gender">nam
+    <input type="radio" name="gender">nu
+    <br>
+    <input type="checkbox" name="hobbby">toy
+    <input type="checkbox" name="hobbby">cinema
+    <br>
+    <input id="" type="submit" value="submit">
+    <br>
+    <p id="h1"></p>
+
+
+
+    
+
+
+<script>
+    var count = 0;
+    var obj = document.getElementById('btn');
+    var click = obj.addEventListener("click", myFunction);
+    if(click){
+        count++;
+    }
+    console.log(count);
+   function myFunction(){
+        alert('ban vua click');
+    }
+</script>
+</body>
+</html>
